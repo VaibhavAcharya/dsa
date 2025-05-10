@@ -13,7 +13,7 @@
  */
 export function indexOfLinear<T extends number | string>(
     array: T[],
-    element: T
+    element: T,
 ): number | undefined {
     if (array.length === 0) return undefined;
 
@@ -40,7 +40,7 @@ console.log(
     "in",
     test1Array,
     "is",
-    indexOfLinear(test1Array, test1Element)
+    indexOfLinear(test1Array, test1Element),
 );
 
 console.log(
@@ -49,5 +49,5 @@ console.log(
     "in",
     test1Element,
     "is",
-    indexOfLinear(test2Array, test2Element)
+    indexOfLinear(test2Array, test2Element),
 );

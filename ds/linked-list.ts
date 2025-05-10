@@ -128,8 +128,7 @@ try {
     console.log("This should not be printed");
 } catch (error) {
     console.log(
-        "Error caught when trying to detach from single node list:",
-        error.message
+        "[Expected] Error caught when trying to detach from single node list",
     );
 }
 
